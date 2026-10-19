@@ -18,7 +18,7 @@ Multi-Factor Authentication adds a second verification step to sign-in. In addit
 
 Open the AWS Management Console and navigate to **IAM**. On the IAM dashboard, select **Add MFA** for the root user if that is the identity you intend to secure.
 
-![AWS IAM dashboard with Add MFA highlighted](screenshots/01-iam-dashboard.png)
+![AWS IAM dashboard with Add MFA highlighted](screenshots/01-iam-dashboard.jpg)
 
 **Note:** Root-user MFA protects the root user. To secure an IAM user instead, open that user's security credentials and configure MFA for that specific user.
 
@@ -26,7 +26,7 @@ Open the AWS Management Console and navigate to **IAM**. On the IAM dashboard, s
 
 Enter a recognizable device name, then select **Authenticator app** from the available MFA device options.
 
-![MFA device name and authenticator app selection](screenshots/02-mfa-device-selection.png)
+![MFA device name and authenticator app selection](screenshots/02-mfa-device-selection.jpg)
 
 Use a descriptive label only; never place a password or secret in the device name.
 
@@ -34,7 +34,7 @@ Use a descriptive label only; never place a password or secret in the device nam
 
 Follow the AWS setup page to display the QR code and scan it using your authenticator app. If scanning is unavailable, AWS may offer a secret-key option.
 
-![Authenticator app registration screen](screenshots/03-authenticator-app-setup.png)
+![Authenticator app registration screen](screenshots/03-authenticator-app-setup.jpg)
 
 - Keep the QR code and secret key private. Anyone who obtains the TOTP secret may be able to generate codes for that MFA device.
 - Enter the current code from your authenticator app when prompted.
