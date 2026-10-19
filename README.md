@@ -53,13 +53,8 @@ Follow the AWS setup page to display the QR code and scan it using your authenti
 
 - **Code rejected:** Check that your device time is set automatically, use a fresh code, and confirm that you selected the correct authenticator entry.
 - **QR code cannot be scanned:** Use manual entry only if AWS presents a secret key, and keep that key confidential.
-- **Lost device:** Follow AWS's official account recovery or MFA replacement procedure.
-
-## Official references
-
-- [AWS IAM User Guide — Multi-factor authentication (MFA) in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html)
-- [AWS Account Management — Root user](https://docs.aws.amazon.com/accounts/latest/reference/root-user.html)
+- **Lost device:** Follow your account's recovery or MFA replacement procedure.
 
 ## Disclaimer
 
-This is an educational walkthrough and is not affiliated with or endorsed by Amazon Web Services (AWS). Console labels and workflows may change over time.
+This is an educational walkthrough. Console labels and workflows may change over time.
